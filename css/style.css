@@ -1,0 +1,338 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Pretendard';
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+body::before {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 10px;
+  background: linear-gradient(90deg, #5e5bc1, #ac7be0);
+  content: '';
+}
+
+.wrapper_all {
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.title_main {
+  margin: 40px 0;
+}
+
+.text_hello {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.text_name {
+  display: inline-block;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.period_mark {
+  margin-left: -3px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #ac7be0;
+}
+
+.period_mark_small {
+  margin-left: -4px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ac7be0;
+}
+
+.wrapper_img {
+  width: 320px;
+  height: 316px;
+  margin: 12px 0 60px;
+  border-radius: 32px;
+  overflow: hidden;
+  box-shadow: 0px 0px 32px #e4d1f8;
+}
+
+.img_profile {
+  object-fit: contain;
+}
+
+.section_contact,
+.section_introduction,
+.section_goal,
+.section_interested,
+.section_projects,
+.section_skills,
+.section_educations {
+  width: 100%;
+  margin-bottom: 36px;
+}
+
+.title_contact,
+.title_introduction,
+.title_goal,
+.title_interested,
+.title_projects,
+.title_skills,
+.title_educations {
+  margin-bottom: 12px;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.interested_list {
+  display: flex;
+  flex-flow: wrap row;
+  gap: 16px;
+  width: 400px;
+  padding: 0;
+  list-style: none;
+}
+
+.section_interested::after,
+.section_contact::after,
+.section_introduction::after,
+.section_projects::after,
+.wrapper_project::after,
+.section_skills::after {
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin-top: 40px;
+  background: linear-gradient(90deg, #d7d6f8, #f1e3ff);
+  content: '';
+}
+
+.wrapper_project:last-of-type::after {
+  display: none;
+}
+
+.section_contact::after {
+  margin-top: 28px;
+}
+
+.section_introduction::after {
+  margin-top: 36px;
+}
+
+.contact_type {
+  margin-bottom: 4px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.contact_link {
+  display: inline-block;
+  margin-bottom: 12px;
+  background: linear-gradient(90deg, #4e4bcf, #9a58e0);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.wrapper_content {
+  margin-bottom: 12px;
+}
+
+.title_feature {
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.content_feature {
+  margin-bottom: 8px;
+  word-break: break-all;
+}
+
+.emphasis,
+.emphasis_name {
+  background: linear-gradient(90deg, #7271d6, #ae75eb);
+  color: white;
+}
+
+.emphasis_name {
+  font-weight: 600;
+}
+
+.wrapper_project {
+  margin-bottom: 32px;
+}
+
+.project_title {
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.project_content {
+  width: 100%;
+}
+
+.project_link {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.link_gradation {
+  background: linear-gradient(90deg, #4e4bcf, #9a58e0);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.project_period {
+  margin-bottom: 8px;
+}
+
+.project_stack {
+  display: inline-block;
+  padding: 4px 12px;
+  margin: 4px 2px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #5e5bc1, #ac7be0);
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.project_abstract,
+.project_direction,
+.project_features,
+.project_procedure,
+.project_remind,
+.project_contributions,
+.project_imgs {
+  margin: 20px 0 8px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.feature,
+.project_contribution {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.feature::before,
+.project_contribution::before,
+.content_education.description::before {
+  display: inline-block;
+  content: '';
+  width: 4px;
+  height: 4px;
+  margin-right: 12px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, #7271d6, #ae75eb);
+}
+
+figcaption {
+  font-size: 14px;
+  text-align: center;
+}
+
+.img_description {
+  margin-bottom: 8px;
+}
+
+.wrapper_imgs {
+  display: flex;
+  flex-flow: row wrap;
+  row-gap: 12px;
+  column-gap: 20px;
+}
+
+.section_skills {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 12px;
+}
+
+.wrapper_skill {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.wrapper_skill:last-of-type ul {
+  height: 60px;
+}
+
+.title_skill {
+  flex-basis: 200px;
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.wrapper_education {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 8px;
+}
+
+.wrapper_education:first-of-type {
+  margin-bottom: 52px;
+}
+
+.wrapper_education ul {
+  height: 40px;
+}
+
+.wrapper_education_left {
+  flex-basis: 200px;
+  margin-bottom: 8px;
+}
+
+.title_educations {
+  margin-bottom: 24px;
+}
+
+.title_education {
+  font-weight: 600;
+}
+
+.period_education {
+  font-size: 14px;
+}
+
+.content_education.description {
+  margin-left: 12px;
+}
