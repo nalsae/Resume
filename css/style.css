@@ -40,7 +40,7 @@ body::before {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 10px;
+  height: 0.625rem;
   background: linear-gradient(90deg, #5e5bc1, #ac7be0);
   content: '';
 }
@@ -49,46 +49,47 @@ body::before {
   display: flex;
   flex-flow: wrap column;
   align-items: center;
-  width: 600px;
+  width: 42.5rem;
   margin: 0 auto;
+  padding: 0 2.5rem;
 }
 
 .title_main {
-  margin: 40px 0;
+  margin: 2.5rem 0;
 }
 
 .text_hello {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
 .text_name {
   display: inline-block;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
 }
 
 .period_mark {
-  margin-left: -3px;
-  font-size: 28px;
+  margin-left: -0.1875rem;
+  font-size: 1.75rem;
   font-weight: 700;
   color: #ac7be0;
 }
 
 .period_mark_small {
-  margin-left: -4px;
-  font-size: 20px;
+  margin-left: -0.25rem;
+  font-size: 1.25rem;
   font-weight: 700;
   color: #ac7be0;
 }
 
 .wrapper_img {
-  width: 320px;
-  height: 316px;
-  margin: 12px 0 60px;
-  border-radius: 32px;
+  width: 20rem;
+  height: 19.75rem;
+  margin: 0.75rem 0 3.75rem;
+  border-radius: 2rem;
   overflow: hidden;
-  box-shadow: 0px 0px 32px #e4d1f8;
+  box-shadow: 0px 0px 2rem #e4d1f8;
 }
 
 .img_profile {
@@ -103,7 +104,7 @@ body::before {
 .section_skills,
 .section_educations {
   width: 100%;
-  margin-bottom: 36px;
+  margin-bottom: 2.25rem;
 }
 
 .title_contact,
@@ -113,17 +114,17 @@ body::before {
 .title_projects,
 .title_skills,
 .title_educations {
-  margin-bottom: 12px;
-  font-size: 28px;
+  margin-bottom: 0.75rem;
+  font-size: 1.75rem;
   font-weight: 700;
-  letter-spacing: -1px;
+  letter-spacing: -0.0625rem;
 }
 
 .interested_list {
   display: flex;
   flex-flow: wrap row;
-  gap: 16px;
-  width: 400px;
+  gap: 1rem;
+  width: 25rem;
   padding: 0;
   list-style: none;
 }
@@ -136,8 +137,8 @@ body::before {
 .section_skills::after {
   display: block;
   width: 100%;
-  height: 1px;
-  margin-top: 40px;
+  height: 0.0625rem;
+  margin-top: 2.5rem;
   background: linear-gradient(90deg, #d7d6f8, #f1e3ff);
   content: '';
 }
@@ -147,39 +148,39 @@ body::before {
 }
 
 .section_contact::after {
-  margin-top: 28px;
+  margin-top: 1.75rem;
 }
 
 .section_introduction::after {
-  margin-top: 36px;
+  margin-top: 2.25rem;
 }
 
 .contact_type {
-  margin-bottom: 4px;
-  font-size: 20px;
+  margin-bottom: 0.25rem;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
 .contact_link {
   display: inline-block;
-  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
   background: linear-gradient(90deg, #4e4bcf, #9a58e0);
   color: transparent;
   -webkit-background-clip: text;
 }
 
 .wrapper_content {
-  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
 }
 
 .title_feature {
-  margin-bottom: 8px;
-  font-size: 20px;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
 .content_feature {
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
   word-break: break-all;
 }
 
@@ -194,12 +195,12 @@ body::before {
 }
 
 .wrapper_project {
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 
 .project_title {
-  margin-bottom: 8px;
-  font-size: 24px;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
@@ -209,7 +210,7 @@ body::before {
 
 .project_link {
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
 }
 
 .link_gradation {
@@ -219,17 +220,17 @@ body::before {
 }
 
 .project_period {
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
 }
 
 .project_stack {
   display: inline-block;
-  padding: 4px 12px;
-  margin: 4px 2px;
-  border-radius: 20px;
+  padding: 0.25rem 0.75rem;
+  margin: 0.25rem 0.125rem;
+  border-radius: 1.25rem;
   background: linear-gradient(90deg, #5e5bc1, #ac7be0);
   color: #ffffff;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 300;
 }
 
@@ -240,8 +241,8 @@ body::before {
 .project_remind,
 .project_contributions,
 .project_imgs {
-  margin: 20px 0 8px;
-  font-size: 20px;
+  margin: 1.25rem 0 0.5rem;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
@@ -249,7 +250,7 @@ body::before {
 .project_contribution {
   display: flex;
   align-items: center;
-  margin-left: 8px;
+  margin-left: 0.5rem;
 }
 
 .feature::before,
@@ -257,33 +258,33 @@ body::before {
 .content_education.description::before {
   display: inline-block;
   content: '';
-  width: 4px;
-  height: 4px;
-  margin-right: 12px;
+  width: 0.25rem;
+  height: 0.25rem;
+  margin-right: 0.75rem;
   border-radius: 50%;
   background: linear-gradient(90deg, #7271d6, #ae75eb);
 }
 
 figcaption {
-  font-size: 14px;
+  font-size: 0.875rem;
   text-align: center;
 }
 
 .img_description {
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
 }
 
 .wrapper_imgs {
   display: flex;
   flex-flow: row wrap;
-  row-gap: 12px;
-  column-gap: 20px;
+  row-gap: 0.75rem;
+  column-gap: 1.25rem;
 }
 
 .section_skills {
   display: flex;
   flex-flow: column wrap;
-  gap: 12px;
+  gap: 0.75rem;
 }
 
 .wrapper_skill {
@@ -292,37 +293,37 @@ figcaption {
 }
 
 .wrapper_skill:last-of-type ul {
-  height: 60px;
+  height: 3.75rem;
 }
 
 .title_skill {
-  flex-basis: 200px;
-  margin-bottom: 8px;
-  font-size: 20px;
+  flex-basis: 12.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
 .wrapper_education {
   display: flex;
   flex-flow: row nowrap;
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
 }
 
 .wrapper_education:first-of-type {
-  margin-bottom: 52px;
+  margin-bottom: 3.25rem;
 }
 
 .wrapper_education ul {
-  height: 40px;
+  height: 2.5rem;
 }
 
 .wrapper_education_left {
-  flex-basis: 200px;
-  margin-bottom: 8px;
+  flex-basis: 12.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .title_educations {
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 
 .title_education {
@@ -330,9 +331,9 @@ figcaption {
 }
 
 .period_education {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .content_education.description {
-  margin-left: 12px;
+  margin-left: 0.75rem;
 }
