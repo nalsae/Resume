@@ -290,6 +290,11 @@ figcaption {
 .wrapper_skill {
   display: flex;
   flex-flow: row nowrap;
+  margin-bottom: 1rem;
+}
+
+.wrapper_skill:first-of-type {
+  margin-bottom: 2.5rem;
 }
 
 .wrapper_skill:last-of-type ul {
@@ -303,14 +308,14 @@ figcaption {
   font-weight: 600;
 }
 
+.detail_skill {
+  max-width: 400px;
+}
+
 .wrapper_education {
   display: flex;
   flex-flow: row nowrap;
-  margin-bottom: 0.5rem;
-}
-
-.wrapper_education:first-of-type {
-  margin-bottom: 3.25rem;
+  margin: 3.25rem 0 0.5rem 0;
 }
 
 .wrapper_education ul {
