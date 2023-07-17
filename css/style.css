@@ -102,7 +102,8 @@ body::before {
 .section_interested,
 .section_projects,
 .section_skills,
-.section_educations {
+.section_educations,
+.section_experiences {
   width: 100%;
   margin-bottom: 2.25rem;
 }
@@ -113,7 +114,8 @@ body::before {
 .title_interested,
 .title_projects,
 .title_skills,
-.title_educations {
+.title_educations,
+.title_experiences {
   margin-bottom: 0.75rem;
   font-size: 1.75rem;
   font-weight: 700;
@@ -134,13 +136,18 @@ body::before {
 .section_introduction::after,
 .section_projects::after,
 .wrapper_project::after,
-.section_skills::after {
+.section_skills::after,
+.section_experiences::after {
   display: block;
   width: 100%;
   height: 0.0625rem;
   margin-top: 2.5rem;
   background: linear-gradient(90deg, #d7d6f8, #f1e3ff);
   content: '';
+}
+
+.section_experiences::after {
+  margin-top: 5rem;
 }
 
 .wrapper_project:last-of-type::after {
@@ -255,6 +262,7 @@ body::before {
 
 .feature::before,
 .project_contribution::before,
+.content_experience.description::before,
 .content_education.description::before {
   display: inline-block;
   content: '';
@@ -312,33 +320,40 @@ figcaption {
   max-width: 400px;
 }
 
+.wrapper_experience,
 .wrapper_education {
   display: flex;
   flex-flow: row nowrap;
   margin: 3.25rem 0 0.5rem 0;
 }
 
+.wrapper_experience ul,
 .wrapper_education ul {
   height: 2.5rem;
 }
 
+.wrapper_experience_left,
 .wrapper_education_left {
   flex-basis: 12.5rem;
   margin-bottom: 0.5rem;
 }
 
+.title_experiences,
 .title_educations {
   margin-bottom: 1.5rem;
 }
 
+.title_experience,
 .title_education {
   font-weight: 600;
 }
 
+.period_experience,
 .period_education {
   font-size: 0.875rem;
 }
 
+.content_experience.description,
 .content_education.description {
   margin-left: 0.75rem;
 }
