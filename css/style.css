@@ -101,10 +101,10 @@ body::before {
   transform: scale(1.05);
 }
 
+.section_interested,
 .section_contact,
 .section_introduction,
-.section_goal,
-.section_interested,
+.section_experiences,
 .section_projects,
 .section_skills,
 .section_educations,
@@ -113,10 +113,10 @@ body::before {
   margin-bottom: 2.25rem;
 }
 
+.title_interested,
 .title_contact,
 .title_introduction,
-.title_goal,
-.title_interested,
+.title_experiences,
 .title_projects,
 .title_skills,
 .title_educations,
@@ -139,6 +139,7 @@ body::before {
 .section_interested::after,
 .section_contact::after,
 .section_introduction::after,
+.section_experiences::after,
 .section_projects::after,
 .wrapper_project.expanded::after,
 .section_skills::after,
@@ -149,10 +150,6 @@ body::before {
   margin-top: 2.5rem;
   background: linear-gradient(90deg, #d7d6f8, #f1e3ff);
   content: '';
-}
-
-.section_activities::after {
-  margin-top: 5rem;
 }
 
 .wrapper_project:last-of-type::after {
@@ -307,6 +304,7 @@ body::before {
 
 .feature::before,
 .project_contribution::before,
+.content_experience.description::before,
 .content_activity.description::before,
 .content_education.description::before {
   display: inline-block;
@@ -316,6 +314,12 @@ body::before {
   margin-right: 0.75rem;
   border-radius: 50%;
   background: linear-gradient(90deg, #7271d6, #ae75eb);
+}
+
+.project_remind + ul {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 4px;
 }
 
 figcaption {
@@ -365,6 +369,7 @@ figcaption {
   max-width: 400px;
 }
 
+.wrapper_experience,
 .wrapper_activity,
 .wrapper_education {
   display: flex;
@@ -372,33 +377,50 @@ figcaption {
   margin: 3.25rem 0 0.5rem 0;
 }
 
-.wrapper_activity ul,
-.wrapper_education ul {
-  height: 2.5rem;
+.wrapper_experience > ul,
+.wrapper_activity > ul,
+.wrapper_education > ul {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 4px;
+  height: auto;
 }
 
+.wrapper_experience_left,
 .wrapper_activity_left,
 .wrapper_education_left {
   flex-basis: 12.5rem;
   margin-bottom: 0.5rem;
 }
 
+.title_experiences,
 .title_activities,
 .title_educations {
   margin-bottom: 1.5rem;
 }
 
+.title_experience,
 .title_activity,
 .title_education {
   font-weight: 600;
 }
 
+.period_experience,
 .period_activity,
 .period_education {
   font-size: 0.875rem;
 }
 
+.content_experience > ul,
+.content_activity > ul,
+.content_education > ul {
+  margin-top: 4px;
+}
+
+.content_experience.description,
 .content_activity.description,
 .content_education.description {
+  display: flex;
+  align-items: center;
   margin-left: 0.75rem;
 }
