@@ -203,6 +203,10 @@ body::before {
   font-weight: 600;
 }
 
+.emphasis.small {
+  line-height: 0.9rem;
+}
+
 .wrapper_project {
   margin: 1.5rem 0 1.5rem;
 }
@@ -266,6 +270,12 @@ body::before {
   background: linear-gradient(90deg, #4e4bcf, #9a58e0);
   color: transparent;
   -webkit-background-clip: text;
+}
+
+.link_white {
+  background: none;
+  font-size: 0.8rem;
+  color: #ffffff;
 }
 
 .project_period {
@@ -393,6 +403,21 @@ figcaption {
   margin-bottom: 0.5rem;
 }
 
+.wrapper_experience_remind {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 12px 16px;
+  margin: 4px 0 8px;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #5755ca, #8a4fc9);
+  color: #ffffff;
+}
+
+.wrapper_experience_remind .title_experience_remind {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
 .title_experiences,
 .title_activities,
 .title_educations {
@@ -414,6 +439,9 @@ figcaption {
 .content_experience > ul,
 .content_activity > ul,
 .content_education > ul {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 3px;
   margin-top: 4px;
 }
 
@@ -423,4 +451,5 @@ figcaption {
   display: flex;
   align-items: center;
   margin-left: 0.75rem;
+  font-size: 0.9rem;
 }
