@@ -257,6 +257,12 @@ body::before {
   background: center / cover url(../img/icon_up.png) no-repeat;
 }
 
+.wrapper_project .accordion_panel > ul {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 2px;
+}
+
 .project_content {
   width: 100%;
 }
