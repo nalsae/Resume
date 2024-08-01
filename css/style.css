@@ -43,6 +43,7 @@ body::before {
   height: 0.625rem;
   background: linear-gradient(90deg, #5e5bc1, #ac7be0);
   content: '';
+  z-index: 999;
 }
 
 .wrapper_all {
