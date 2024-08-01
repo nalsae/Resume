@@ -413,15 +413,26 @@ figcaption {
   display: flex;
   flex-flow: column wrap;
   padding: 12px 16px;
-  margin: 4px 0 8px;
+  margin: 4px 0 8px 24px;
   border-radius: 8px;
   background: linear-gradient(90deg, #5755ca, #8a4fc9);
   color: #ffffff;
 }
 
 .wrapper_experience_remind .title_experience_remind {
+  padding-bottom: 8px;
+  margin-bottom: 4px;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.4);
   font-size: 0.9rem;
   font-weight: 700;
+}
+
+.wrapper_project .wrapper_experience_remind {
+  margin-top: 8px;
+}
+
+.content_experience > .wrapper_experience_remind {
+  margin-left: 10px;
 }
 
 .title_experiences,
