@@ -406,7 +406,7 @@ figcaption {
 .wrapper_experience_left,
 .wrapper_activity_left,
 .wrapper_education_left {
-  flex-basis: 12.5rem;
+  min-width: 200px;
   margin-bottom: 0.5rem;
 }
 
